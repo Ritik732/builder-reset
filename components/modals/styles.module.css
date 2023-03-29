@@ -20,7 +20,7 @@
     0 5px 15px 0 hsl(0deg, 0%, 0%, 0.8%);
 }
 .dark-mode .ModalContent {
-  color: white;
+  color: black;
   background-color: #222;
 }
 
