@@ -25,7 +25,7 @@ import style from './styles.module.css'
 export const AnimatedDialogOverlay = animated(DialogOverlay)
 export const AnimatedDialogContent = animated(DialogContent)
 
-const emptyObject: any = {}
+const emptyObject: any = {color: 'white'}
 type CssTransitionProps = UseTransitionProps<CSSProperties>
 interface ModalTransition {
   initial?: CssTransitionProps['initial']
